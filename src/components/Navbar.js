@@ -1,6 +1,15 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 
  function Navbar() {
+
+  const history=useHistory();
+  const navigateToFav=()=>{
+    history.push('/fav');
+  }
+  const navigateToCart=()=>{
+    history.push('/cart');
+  }
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-lg-flex">
@@ -44,15 +53,23 @@ import React from 'react';
               </li>
 
             </ul>
-            <form class="d-flex">
-              <div>
-                <input className='searchbar' style={{ border: "none" }} type="search" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-
-                <i class="fas fa-search"></i>
-              </div>
+            <div style={{display:"flex",justifyContent:"space-evenly"}}>
+           
+            <form style={{width:"50%"}}>
+              
+                <input className='searchbar' style={{ border: "none",width:"100%"}} type="search" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+              
             </form>
-            <i class="fas fa-search"></i>
-            <i class="fas fa-search"></i>
+           
+            <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+              <div>
+            <i onClick={navigateToFav} style={{marginRight:"10px"}} class="far fa-heart"></i>
+            </div>
+            <div>
+            <i onClick={navigateToCart}class="fas fa-shopping-bag"></i>
+            </div>
+            </div>
+            </div>
           </div>
         </div>
       </nav>

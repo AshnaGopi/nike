@@ -1,20 +1,59 @@
 {
     "cards":[
         {
-            "title":"One",
-            "image":"https://5.imimg.com/data5/ANDROID/Default/2021/1/OD/RM/BM/36974239/img-20210124-wa0122-jpg.jpg"
+            "id":1,
+            "title":"shoe1",
+            "price":"MRP : ₹ 10,000",
+            "image":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/29abad8d7ae64654b001adb90136819e_9366/RUNMAGICA_SHOES_Blue_EY2972_01_standard.jpg"
         },
         {
-            "title":"Two",
+            "id":2, 
+            "title":"shoe2", 
+            "price":"MRP : ₹ 11,000",
             "image":"https://media.istockphoto.com/id/1149654373/photo/creative-minimal-paper-idea-concept-white-shoe-with-white-background-3d-render-3d-illustration.jpg?s=612x612&w=0&k=20&c=Z1sy46GDIY5D7XI-eSvoRRlPmaMjmZpeRvFKNQVQFto="
         },
         {
-            "title":"Three",
-            "image":"https://media.istockphoto.com/id/1149654373/photo/creative-minimal-paper-idea-concept-white-shoe-with-white-background-3d-render-3d-illustration.jpg?s=612x612&w=0&k=20&c=Z1sy46GDIY5D7XI-eSvoRRlPmaMjmZpeRvFKNQVQFto="
+            "id":3, 
+            "title":"shoe3",
+            "price":"MRP : ₹ 7,000",
+            "image":"https://www.shoepalace.com/cdn/shop/products/bc311754b2b346bc0f9f77fc2f212240_2048x2048.jpg?v=1696271207&title=jordan-dz4475-041-jumpman-mvp-mens-basketball-shoes-black-game-royal"
         },
         {
-            "title":"Four",
-            "image":"https://5.imimg.com/data5/ANDROID/Default/2021/1/OD/RM/BM/36974239/img-20210124-wa0122-jpg.jpg"
+            "id":4, 
+            "title":"shoe4", 
+            "price":"MRP : ₹ 8,000",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2TjM-Woe9oA3Dstwxpl6Ut8JXg6n7nh0QnpJDyB-CHhP-z9TrFh5EY4DugDaaECV5lco&usqp=CAU"
+        },
+        {
+            "id":5,
+            "title":"Five",
+            "price":"MRP : ₹ 15,000",
+            "image":"https://www.shoepalace.com/cdn/shop/products/111602c5c71297788acffe5edad1e44a_2048x2048.jpg?v=1676322591&title=jordan-fd1029-400-air-jordan-1-retro-mid-mens-basketball-shoes-blue-orange"
+        },  
+        {
+            "id":6,
+            "title":"Six",
+            "price":"MRP : ₹ 11,000",
+            "image":"https://media.wonderlandmagazine.com/uploads/2021/01/fa16f213-2a95-4ae2-ad53-5dd69e3cd9af.jpg"
+        },
+        {
+            "id":7,
+            "title":"Seven",
+            "price":"MRP : ₹ 14,000",
+            "image": "https://i.pinimg.com/736x/bc/bb/81/bcbb81f10e2dd343ede6b9d2433db325.jpg"
+        },
+        {
+            "id":8,
+            "title":"Eight",
+            "price":"MRP : ₹ 16,000",
+            "image":"https://shoegrab.com.au/cdn/shop/products/ShoeGrab_Nike_Air_Jordan_1_Womens_White_IceBlue.png?v=1666578024"
+           
+        },
+        {   
+            "id":9,
+            "title":"Nine",
+            "price":"MRP : ₹ 7,000",
+            "image":"https://www.shoepalace.com/cdn/shop/products/abbc56ec8dc8d3322c0a57c1bc66892f_large.jpg?v=1685558205"
         }
         
     ]
